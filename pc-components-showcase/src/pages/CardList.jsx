@@ -10,77 +10,66 @@ const CardsList = () => {
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "Graphics Card",
       description: "GPU for smooth gaming and rendering.",
-      buttonText: "Show List",
     },
     {
       id: 2,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "Processor",
       description: "Fast CPU for high-speed performance.",
-      buttonText: "Show List",
     },
     {
       id: 3,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "RAM",
       description: "Upgrade your memory for better multitasking.",
-      buttonText: "Show List",
     },
     {
       id: 4,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "SSD",
       description: "Stroage for Fastest Activities.",
-      buttonText: "Show List",
     },
     {
       id: 5,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "MotherBoard",
       description: "The Main Board For Connecting All Components.",
-      buttonText: "Show List",
     },
     {
       id: 6,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "HDD",
       description: "Hard Drive Disk is Store a Huge Data.",
-      buttonText: "Show List",
     },
     {
       id: 7,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "Power Supply",
       description: "Supply The Power to the PC Components",
-      buttonText: "Show List",
     },
     {
       id: 8,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "Cabinet",
       description: "It is case That cover the Whole PC. ",
-      buttonText: "Show List",
     },
     {
       id: 9,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "Keyboard",
       description: "All Keys to be help Communicate to the PC.",
-      buttonText: "Show List",
     },
     {
       id: 10,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "Mouse",
       description: "Mouse is a EventMaker to a PC.",
-      buttonText: "Show List",
     },
     {
       id: 11,
       image: "https://via.placeholder.com/400x200", // Replace with real image URL
       title: "Speakers",
       description: "Audio Speakers to Listen Music and a Clear Audio.",
-      buttonText: "Show List",
     },
   ];
 
@@ -98,7 +87,7 @@ const CardsList = () => {
           image={card.image}
           title={card.title}
           description={card.description}
-          buttonText={card.buttonText}
+          buttonText={(card.buttonText = "Show List")}
           onButtonClick={() => handleButtonClick(card.id)}
         />
       ))}
