@@ -57,7 +57,7 @@ const About = () => {
                 function optimally and without failure.
               </li>
 
-              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white">
+              <li className="mb-2 bg-blue-900  rounded-md p-3 text-white">
                 Peripherals: Devices like keyboards, mice, and monitors might
                 seem secondary, but they are essential for interaction with your
                 system, whether for work or play.
@@ -67,9 +67,9 @@ const About = () => {
 
           <div className="flex justify-center items-center">
             <img
-              src="https://via.placeholder.com/400x200.png?text=PC+Components"
+              src="pcc.png"
               alt="PC Components Illustration"
-              className="w-full max-w-sm rounded-lg shadow-lg"
+              className="w-full max-w-sm rounded-lg shadow-lg border-2"
             />
           </div>
         </div>

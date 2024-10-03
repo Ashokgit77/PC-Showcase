@@ -24,23 +24,13 @@ const HeroSection = () => {
             Explore Components
           </Link>
         </div>
-
-        {/* Right Side - Animated PC */}
-        <div className="md:w-1/2 flex justify-center">
-          <div className="relative">
-            {/* PC Illustration */}
-            <div className="pc-container bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg shadow-lg p-6 w-80 h-96">
-              <div className="screen bg-black w-60 h-36 mx-auto mb-4 rounded-md overflow-hidden animate-pulse">
-                {/* Simulating an animated screen */}
-                <div className="bg-green-400 w-full h-full animate-pulse" />
-              </div>
-              <div className="stand bg-gray-500 w-12 h-4 mx-auto rounded-md"></div>
-            </div>
-
-            {/* Animated Glow Effect */}
-            <div className="absolute inset-0 w-full h-full rounded-lg animate-spin-slow opacity-30 bg-gradient-to-r from-blue-500 to-green-500"></div>
-          </div>
-        </div>
+        <img
+          src="HS-Case.png"
+          alt="RGB Case"
+          srcset=""
+          height={"600"}
+          width={"600"}
+        />
       </div>
     </section>
   );
