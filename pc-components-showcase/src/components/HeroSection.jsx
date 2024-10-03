@@ -9,7 +9,7 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mb-4">
             Discover the Essential PC Components
           </h1>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-justify">
             Explore the world of Motherboards that connect all your
             components,RAM that boosts your system's speed,and SSDs that ensure
             fast load times.Learn about the importance of reliable Power
