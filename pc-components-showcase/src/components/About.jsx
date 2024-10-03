@@ -18,7 +18,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="text-left">
             <h2 className="text-2xl font-semibold text-white mb-4">
-              Why Choose Our Components?
+              Some Components snippets 
             </h2>
             <ul className="list-disc list-inside text-white w-full">
               <li className="mb-2 bg-blue-900 rounded-md p-3 text-white text-left">
