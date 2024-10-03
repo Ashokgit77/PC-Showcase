@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="text-4xl font-bold text-white mb-6">
           About PC Components
         </h1>
-        <p className="text-white text-lg mb-8">
+        <p className="text-white text-lg mb-8 text-justify">
           The heart of every computer lies in its components, each designed to
           fulfill a specific function that ensures smooth operation and
           performance. From processing power to storage solutions, these
@@ -21,43 +21,43 @@ const About = () => {
               Why Choose Our Components?
             </h2>
             <ul className="list-disc list-inside text-white w-full">
-              <li className="mb-2 bg-blue-900 rounded-md p-3 text-white">
+              <li className="mb-2 bg-blue-900 rounded-md p-3 text-white text-left">
                 Graphics Cards - GPU: A graphics card is essential for rendering
                 images, videos, and games. It's a must-have for gamers, video
                 editors, and anyone working with high-resolution visuals.
               </li>
-              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white">
+              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white text-left">
                 Processors - CPU: The central processing unit is the brain of
                 your computer. It handles all instructions from your software,
                 making your PC run faster and more efficiently.
               </li>
-              <li className="mb-2 bg-blue-900 rounded-md p-3 text-white">
+              <li className="mb-2 bg-blue-900 rounded-md p-3 text-white text-left">
                 RAM - Memory: Random-access memory stores temporary data that
                 your computer needs to access quickly. More RAM means smoother
                 multitasking and faster performance, especially when running
                 multiple applications at once.
               </li>
 
-              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white">
+              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white text-left">
                 Storage - SSD & HDD: Solid-state drives SSD and hard disk drives
                 HDD are crucial for storing your data. SSDs offer faster access
                 to files and programs, while HDDs provide larger storage at a
                 lower cost.
               </li>
 
-              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white">
+              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white text-left">
                 Motherboard: The motherboard is the backbone of your PC,
                 connecting all your components, including the CPU, memory,
                 storage, and peripherals.
               </li>
 
-              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white">
+              <li className="mb-2  bg-blue-900 rounded-md p-3 text-white text-left">
                 Power Supply - PSU: A reliable power supply unit delivers the
                 necessary electricity to all your components, ensuring they
                 function optimally and without failure.
               </li>
 
-              <li className="mb-2 bg-blue-900  rounded-md p-3 text-white">
+              <li className="mb-2 bg-blue-900  rounded-md p-3 text-white text-left">
                 Peripherals: Devices like keyboards, mice, and monitors might
                 seem secondary, but they are essential for interaction with your
                 system, whether for work or play.
@@ -74,7 +74,7 @@ const About = () => {
           </div>
         </div>
 
-        <p className="text-white text-lg mt-8">
+        <p className="text-white text-lg mt-8 text-justify">
           Each component plays a vital role in creating a balanced and efficient
           system. Whether you're building a custom PC or upgrading an existing
           one, understanding these parts is key to optimizing performance for
