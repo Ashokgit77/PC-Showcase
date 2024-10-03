@@ -77,7 +77,7 @@ const CardsList = () => {
     },
     {
       id: 11,
-      image: "",
+      image: "spk.jpg",
       title: "Speakers",
       sTitle: "Computer speakers",
       description: "Audio Speakers to Listen Music and a Clear Audio.",
